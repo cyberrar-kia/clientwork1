@@ -3,7 +3,7 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Client WorkPage() {
+export default function ClientWorkPage() {
   const [whyOpen, setWhyOpen] = useState(false);
   const [whoOpen, setWhoOpen] = useState(false);
   const [diffOpen, setDiffOpen] = useState(false);
