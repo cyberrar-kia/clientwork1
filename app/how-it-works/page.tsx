@@ -27,7 +27,7 @@ export default function HowItWorks() {
 
 
           <div style={{ display:"inline-flex", background:"rgba(245,130,10,0.15)", border:"1px solid rgba(245,130,10,0.3)", color:"#FFB366", fontSize:11, fontWeight:700, letterSpacing:"1px", textTransform:"uppercase", padding:"6px 14px", borderRadius:50, marginBottom:20 }}>The Method</div>
-          <h1 style={{ fontSize:"clamp(28px,5vw,48px)", fontWeight:900, color:"white", marginBottom:20 }}>How FastTrack Literacy™ <span style={{ color:"#F5820A" }}>Works</span></h1>
+          <h1 style={{ fontSize:"clamp(28px,5vw,48px)", fontWeight:900, color:"white", marginBottom:20 }}>How Client Work <span style={{ color:"#F5820A" }}>Works</span></h1>
           <p style={{ fontSize:"clamp(14px,2vw,17px)", color:"rgba(255,255,255,0.8)", lineHeight:1.8 }}>Every lesson follows a systematic <strong style={{ color:"#F5820A" }}>16-step instructional pattern</strong> designed to ensure reading success through structured, multisensory engagement.</p>
         </div>
       </section>
@@ -37,10 +37,10 @@ export default function HowItWorks() {
         <div className="container">
           <div className="section-chip" style={{ background:"rgba(245,130,10,0.2)", border:"1px solid rgba(245,130,10,0.4)", color:"#FFB366" }}>🐆 See It In Action</div>
           <h2 style={{ fontFamily:"'Nunito',sans-serif", fontWeight:900, fontSize:"clamp(24px,4vw,38px)", color:"white", marginBottom:14, marginTop:12 }}>
-            Inside a FastTrack Literacy™ Lesson
+            Inside a Client Work Lesson
           </h2>
           <p style={{ fontSize:"clamp(13px,1.6vw,16px)", color:"rgba(255,255,255,0.75)", lineHeight:1.8, marginBottom:40, maxWidth:580, margin:"0 auto 40px" }}>
-            Watch the FastTrack Literacy™ system in action — a real classroom lesson showing how the 16-step structure comes to life.
+            Watch the Client Work system in action — a real classroom lesson showing how the 16-step structure comes to life.
           </p>
           <div style={{ borderRadius:20, overflow:"hidden", boxShadow:"0 24px 80px rgba(0,0,0,0.5)", maxWidth:900, margin:"0 auto", border:"3px solid rgba(245,130,10,0.4)" }}>
             <video
@@ -89,7 +89,7 @@ export default function HowItWorks() {
           <div style={{ textAlign:"center", marginBottom:52 }}>
             <div className="section-chip" style={{ margin:"0 auto 16px" }}>🚂 The Lesson Structure</div>
             <h2 style={{ fontSize:"clamp(24px,4vw,36px)", fontWeight:900, color:"#0C2340" }}>Anatomy of a Phoneme Lesson</h2>
-            <p style={{ fontSize:15, color:"#5A5240", maxWidth:520, margin:"12px auto 0", lineHeight:1.7 }}>Every phoneme lesson in FastTrack Literacy™ follows this systematic, multisensory structure — designed to ensure no child is left behind.</p>
+            <p style={{ fontSize:15, color:"#5A5240", maxWidth:520, margin:"12px auto 0", lineHeight:1.7 }}>Every phoneme lesson in Client Work follows this systematic, multisensory structure — designed to ensure no child is left behind.</p>
           </div>
           <div style={{ marginBottom:52 }}>
             <Image src="/images/image14.png" alt="Anatomy of a Phoneme Lesson — The 16-Step Path" width={1200} height={680} style={{ width:"100%", height:"auto", borderRadius:16, boxShadow:"0 8px 32px rgba(0,0,0,0.08)", marginBottom:40 }} />
@@ -107,7 +107,7 @@ export default function HowItWorks() {
 
       <section className="section-sm" style={{ background:"#FFF0E0", textAlign:"center" }}>
         <h2 style={{ fontSize:"clamp(20px,3vw,30px)", fontWeight:900, color:"#0C2340", marginBottom:14 }}>Join thousands of educators and families using CHEETAH® resources!</h2>
-        <p style={{ fontSize:15, color:"#5A5240", marginBottom:28, maxWidth:440, margin:"0 auto 28px" }}>FastTrack Literacy™ — accelerating reading and writing success at school and at home.</p>
+        <p style={{ fontSize:15, color:"#5A5240", marginBottom:28, maxWidth:440, margin:"0 auto 28px" }}>Client Work — accelerating reading and writing success at school and at home.</p>
         <div className="btn-row" style={{ justifyContent:"center" }}>
           <Link href="/get-started" className="btn-orange">Get Started →</Link>
           <Link href="/resources" className="btn-navy">Browse Resources</Link>

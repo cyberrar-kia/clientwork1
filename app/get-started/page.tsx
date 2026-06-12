@@ -24,8 +24,8 @@ export default function GetStarted() {
 
 
           <div style={{ display:"inline-flex", background:"rgba(245,130,10,0.15)", border:"1px solid rgba(245,130,10,0.3)", color:"#FFB366", fontSize:11, fontWeight:700, letterSpacing:"1px", textTransform:"uppercase", padding:"6px 14px", borderRadius:50, marginBottom:20 }}>Get Started</div>
-          <h1 style={{ fontSize:"clamp(28px,5vw,48px)", fontWeight:900, color:"white", marginBottom:18 }}>FastTrack Literacy™, <span style={{ color:"#F5820A" }}>A Complete Educational Solution for All Stakeholders</span></h1>
-          <p style={{ fontSize:"clamp(14px,2vw,17px)", color:"rgba(255,255,255,0.8)", lineHeight:1.8 }}>Whether you are a parent, educator, school, or organisation — FastTrack Literacy™ has a path for you.</p>
+          <h1 style={{ fontSize:"clamp(28px,5vw,48px)", fontWeight:900, color:"white", marginBottom:18 }}>Client Work, <span style={{ color:"#F5820A" }}>A Complete Educational Solution for All Stakeholders</span></h1>
+          <p style={{ fontSize:"clamp(14px,2vw,17px)", color:"rgba(255,255,255,0.8)", lineHeight:1.8 }}>Whether you are a parent, educator, school, or organisation — Client Work has a path for you.</p>
         </div>
       </section>
 
@@ -33,7 +33,7 @@ export default function GetStarted() {
         <div className="container">
           <div style={{ textAlign:"center", marginBottom:48 }}>
             <div className="section-chip" style={{ margin:"0 auto 16px" }}>🤝 Who We Partner With</div>
-            <h2 style={{ fontSize:"clamp(22px,4vw,34px)", fontWeight:900, color:"#0C2340" }}>FastTrack Literacy™ is For Everyone</h2>
+            <h2 style={{ fontSize:"clamp(22px,4vw,34px)", fontWeight:900, color:"#0C2340" }}>Client Work is For Everyone</h2>
           </div>
           <div className="grid-auto">
             {[
@@ -61,7 +61,7 @@ export default function GetStarted() {
           </div>
           <div className="grid-auto">
             {[
-              { icon:"📋", title:"Adopt the Program", desc:"Bring FastTrack Literacy™ into your school, organisation, or community.", cta:"Apply Now", href:"/contact" },
+              { icon:"📋", title:"Adopt the Program", desc:"Bring Client Work into your school, organisation, or community.", cta:"Apply Now", href:"/contact" },
               { icon:"🎓", title:"Train Your Team", desc:"Access teacher training, Transformation Weeks, and ongoing support. Over 640 activities to equip every educator.", cta:"Book Training", href:"/contact" },
               { icon:"🤖", title:"Integrate Technology", desc:"Leverage our full ecosystem — books, digital tools, AI, and iCHEETAH™ devices.", cta:"Explore Resources", href:"/resources" },
               { icon:"❤️", title:"Support the Mission", desc:"Donate or sponsor resources to expand literacy access for underserved communities.", cta:"Contact Us", href:"/contact" },
@@ -103,7 +103,7 @@ export default function GetStarted() {
               <div style={{ textAlign:"center", padding:"40px 20px" }}>
                 <div style={{ fontSize:48, marginBottom:16 }}>✅</div>
                 <h3 style={{ fontFamily:"'Nunito',sans-serif", fontWeight:900, fontSize:20, color:"#0C2340", marginBottom:8 }}>You're Signed Up!</h3>
-                <p style={{ fontSize:14, color:"#5A5240", lineHeight:1.7 }}>Welcome to the FastTrack Literacy™ movement. We'll be in touch soon.</p>
+                <p style={{ fontSize:14, color:"#5A5240", lineHeight:1.7 }}>Welcome to the Client Work movement. We'll be in touch soon.</p>
               </div>
             ) : (
               <>

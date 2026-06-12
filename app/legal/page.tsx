@@ -12,7 +12,7 @@ export default function Legal() {
           <div style={{ background:"#FFF9F4", border:"1px solid #EDE0D0", borderRadius:20, padding:"clamp(24px,5vw,48px)" }}>
             <h2 style={{ fontFamily:"'Nunito',sans-serif", fontWeight:900, fontSize:22, color:"#0C2340", marginBottom:8 }}>Privacy Policy</h2>
             <p style={{ fontSize:13, color:"#A0927A", marginBottom:28 }}>Effective Date: April 19, 2026</p>
-            <p style={{ fontSize:15, color:"#5A5240", lineHeight:1.85, marginBottom:16 }}>FastTrack Literacy™ is a program of CHEETAH® Toys & More, LLC ("we," "our," or "us"). JamDER© is the customised version for Jamaica. We respect your privacy and are committed to protecting your personal information.</p>
+            <p style={{ fontSize:15, color:"#5A5240", lineHeight:1.85, marginBottom:16 }}>Client Work is a program of CHEETAH® Toys & More, LLC ("we," "our," or "us"). JamDER© is the customised version for Jamaica. We respect your privacy and are committed to protecting your personal information.</p>
             {[
               {title:"1. Information We Collect", body:"We may collect: Name, Email address, Role (Parent, Teacher, School, Ministry), any information you voluntarily provide, and technical data (browser, device, usage)."},
               {title:"2. How We Use Your Information", body:"We use your information to provide access to resources, communicate with you, respond to inquiries, and improve services."},
@@ -25,7 +25,7 @@ export default function Legal() {
               {title:"9. Third-Party Services", body:"We may use external platforms (e.g., flipbooks, analytics)."},
               {title:"10. Children's Privacy", body:"We do not knowingly collect data directly from children."},
               {title:"11. International Users", body:"Your data may be processed in other countries."},
-              {title:"12. Contact", body:"CHEETAH® Toys & More, LLC · Email: info@fasttrackliteracy.com · Website: https://fasttrackliteracy.com"},
+              {title:"12. Contact", body:"CHEETAH® Toys & More, LLC · Email: info@clientwork-demo.vercel.app · Website: https://clientwork-demo.vercel.app"},
               {title:"13. Updates", body:"We may update this policy periodically."},
             ].map(item => (
               <div key={item.title} style={{ marginBottom:20, paddingBottom:20, borderBottom:"1px solid #EDE0D0" }}>
@@ -34,7 +34,7 @@ export default function Legal() {
               </div>
             ))}
             <h2 style={{ fontFamily:"'Nunito',sans-serif", fontWeight:900, fontSize:22, color:"#0C2340", marginTop:32, marginBottom:20 }}>Intellectual Property Notice</h2>
-            <p style={{ fontSize:15, color:"#5A5240", lineHeight:1.85, marginBottom:16 }}>All content featured on this site and within the FastTrack Phonics™ program — including, but not limited to, the FastTrack Train character, JamDER™ and C-DER™ books, logos, illustrations, digital assets, songs, and instructional materials — is the intellectual property of <strong>CHEETAH® Purrrrrrr Publishing</strong>, a division of CHEETAH Toys & More, LLC.</p>
+            <p style={{ fontSize:15, color:"#5A5240", lineHeight:1.85, marginBottom:16 }}>All content featured on this site and within the Client Work Phonics™ program — including, but not limited to, the Client Work Train character, JamDER™ and C-DER™ books, logos, illustrations, digital assets, songs, and instructional materials — is the intellectual property of <strong>CHEETAH® Purrrrrrr Publishing</strong>, a division of CHEETAH Toys & More, LLC.</p>
             <p style={{ fontSize:15, color:"#5A5240", lineHeight:1.85, marginBottom:16 }}>These materials are <strong>protected by copyright, trademark, and other applicable laws</strong> in Jamaica, the United States, and internationally. No part may be reproduced, stored, or transmitted in any form or by any means — electronic, mechanical, photocopying, recording, or otherwise — without <strong>prior written permission</strong> from the publisher.</p>
             <div style={{ background:"#FFF0E0", borderLeft:"4px solid #F5820A", padding:"16px 20px", borderRadius:"0 12px 12px 0" }}>
               <p style={{ fontSize:14, fontWeight:700, color:"#0C2340" }}>© 2025 CHEETAH Toys & More, LLC. All rights reserved.</p>

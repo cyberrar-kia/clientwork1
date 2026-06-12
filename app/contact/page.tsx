@@ -99,7 +99,7 @@ export default function Contact() {
 
       <section className="section-sm" style={{ background:"white", textAlign:"center" }}>
         <h2 style={{ fontSize:"clamp(18px,3vw,28px)", fontWeight:900, color:"#0C2340", marginBottom:12 }}>Ready to Book a Demo?</h2>
-        <p style={{ fontSize:15, color:"#5A5240", marginBottom:24, maxWidth:440, margin:"0 auto 24px" }}>See FastTrack Literacy™ in action. Our team will walk you through the full programme and answer your questions.</p>
+        <p style={{ fontSize:15, color:"#5A5240", marginBottom:24, maxWidth:440, margin:"0 auto 24px" }}>See Client Work in action. Our team will walk you through the full programme and answer your questions.</p>
         <a href="/meeting" style={{ display:"inline-block", background:"#0C2340", color:"white", fontFamily:"'Nunito',sans-serif", fontWeight:800, padding:"14px 28px", borderRadius:50, fontSize:15, cursor:"pointer", textDecoration:"none" }}>Book a Demo →</a>
       </section>
     </>

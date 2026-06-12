@@ -17,7 +17,7 @@ const roles = [
     overview:"CHEETAH® is building a national, field-based team to drive school engagement and product adoption across Jamaica. We are recruiting Parish Representatives (1 per parish) and Regional Leaders to begin activation in May 2026. This is a sales, marketing, and education engagement role focused on introducing and scaling CHEETAH's solutions in schools.",
     responsibilities:[
       { heading:"School Engagement", items:["Visit schools within your assigned parish","Meet with principals, teachers, and administrators","Reintroduce CHEETAH's Ministry-aligned resources"] },
-      { heading:"Product Demonstration", items:["Present PEP preparation workbooks and textbooks","Demonstrate FastTrack Literacy™ programme materials","Showcase supplementary charts and classroom tools"] },
+      { heading:"Product Demonstration", items:["Present PEP preparation workbooks and textbooks","Demonstrate Client Work programme materials","Showcase supplementary charts and classroom tools"] },
       { heading:"Student Activation", items:["Deliver short, engaging sessions to build excitement","Support school-based activities and demonstrations"] },
       { heading:"Sales & Follow-Up", items:["Generate interest and secure orders","Coordinate with the central CHEETAH team for fulfilment","Maintain relationships with schools"] },
     ],
@@ -92,11 +92,11 @@ const roles = [
     tag:"Remote",
     tagColor:"blue",
     title:"Web Designer / Developer",
-    subtitle:"FastTrack Literacy™ Platform",
+    subtitle:"Client Work Platform",
     type:"Remote · Project-Based",
     location:"Remote — Global",
     start:"Immediate",
-    overview:"CHEETAH® is seeking a skilled Web Designer/Developer to enhance the FastTrack Literacy™ website and integrate AI workflows. The ideal candidate combines strong design skills, clean code development, and AI-assisted workflows to deliver a high-quality digital experience for educators, parents, and global partners.",
+    overview:"CHEETAH® is seeking a skilled Web Designer/Developer to enhance the Client Work website and integrate AI workflows. The ideal candidate combines strong design skills, clean code development, and AI-assisted workflows to deliver a high-quality digital experience for educators, parents, and global partners.",
     responsibilities:[
       { heading:"Website Design & Development", items:["Design and build responsive pages (mobile + desktop)","Integrate infographics, visuals, and structured content","Deliver clean, deployable code and editable design files"] },
       { heading:"Presentation Design", items:["Convert existing content into professional slide decks","Create pitch decks and training presentations","Ensure consistent branding and visual storytelling"] },

@@ -28,7 +28,7 @@ export default function About() {
               <h2 style={{ fontSize:"clamp(22px,3.5vw,34px)", fontWeight:900, color:"#0C2340", marginBottom:16 }}>A Global Literacy Ecosystem</h2>
               <p style={{ fontSize:15, color:"#5A5240", lineHeight:1.85, marginBottom:16 }}>CHEETAH® (Connect to Higher Education, Electronic Tools, Apps & Help) Toys & More, LLC is a global education and technology company that designs complete literacy ecosystems—combining curriculum, content, assessment, technology, and AI to improve reading outcomes at scale.</p>
               <p style={{ fontSize:15, color:"#5A5240", lineHeight:1.85, marginBottom:16 }}>Founded in the United States and Jamaica in 2014 and 2015, respectively, CHEETAH® has grown from national assessment workbooks (Primary Exit Profile) into textbooks and a comprehensive literacy system with over 90 resources. These resources are customised for markets including Jamaica, the USA, Kenya, Uganda, and other countries.</p>
-              <p style={{ fontSize:15, color:"#5A5240", lineHeight:1.85, marginBottom:0 }}>Its flagship programme, <strong>FastTrack Literacy™</strong>, is delivered in Jamaica as <strong>JamDER™ (Jamaica Decodable and Early Readers)</strong>.</p>
+              <p style={{ fontSize:15, color:"#5A5240", lineHeight:1.85, marginBottom:0 }}>Its flagship programme, <strong>Client Work</strong>, is delivered in Jamaica as <strong>JamDER™ (Jamaica Decodable and Early Readers)</strong>.</p>
             </div>
             <div style={{ display:"flex", flexDirection:"column", gap:14 }}>
               {[{icon:"📖",title:"Evidence-Based Programmes",desc:"Posters, flashcards, reggae phoneme songs, and decodable readers (fiction and nonfiction)"},{icon:"🌍",title:"Customised Country Editions",desc:"Including JamDER™ and other localised versions"},{icon:"🤖",title:"Technology & AI Integration",desc:"iCHEETAH™, tablets, apps, and digital training"},{icon:"🏫",title:"ICT Solutions for Schools",desc:"Mobile learning carts, projectors, and all-in-one systems"},{icon:"🤝",title:"Government Partnerships",desc:"National mobilisation across thousands of schools"},{icon:"❤️",title:"Community Literacy Initiatives",desc:"School donations, scholarships, and a media room with books and tablets developed in collaboration with the Jamaican Ministry of Education"}].map(w=>(
@@ -56,15 +56,15 @@ export default function About() {
         </div>
       </section>
 
-      <section className="section" style={{ background:"white" }} id="fasttrack">
+      <section className="section" style={{ background:"white" }} id="clientwork">
         <div className="container">
           <div style={{ textAlign:"center", marginBottom:32 }}>
-            <div className="section-chip" style={{ margin:"0 auto 16px" }}>📚 What is FastTrack Literacy™</div>
+            <div className="section-chip" style={{ margin:"0 auto 16px" }}>📚 What is Client Work</div>
             <h2 style={{ fontSize:"clamp(22px,3.5vw,34px)", fontWeight:900, color:"#0C2340", marginBottom:12 }}>A Complete Literacy System</h2>
             <p style={{ fontSize:15, color:"#5A5240", maxWidth:560, margin:"0 auto", lineHeight:1.7 }}>A comprehensive, Science of Reading–aligned system combining decodable books, reggae-inspired phoneme songs, AI-powered technology, flashcards, and structured learning tools.</p>
           </div>
           <div onClick={()=>setExpandedImg("/images/jamder-books.png")} style={{ cursor:"zoom-in", position:"relative" }}>
-              <Image src="/images/jamder-books.png" alt="FastTrack Literacy™ — JamDER and C-DER Books Collection" width={1400} height={800} style={{ width:"100%", height:"auto", borderRadius:16, boxShadow:"0 8px 32px rgba(0,0,0,0.08)" }} />
+              <Image src="/images/jamder-books.png" alt="Client Work — JamDER and C-DER Books Collection" width={1400} height={800} style={{ width:"100%", height:"auto", borderRadius:16, boxShadow:"0 8px 32px rgba(0,0,0,0.08)" }} />
               <div style={{ position:"absolute", bottom:8, right:8, background:"rgba(0,0,0,0.5)", color:"white", fontSize:10, fontWeight:700, padding:"3px 8px", borderRadius:50 }}>🔍 Expand</div>
             </div>
           <p style={{ textAlign:"center", marginTop:20, fontSize:14, color:"#5A5240", lineHeight:1.7 }}>Founded by <strong>Paulette Trowers-Lawrence, JD</strong>, CHEETAH® is driven by one mission: <strong>every child can learn to read and write, and every child must be given the resources to succeed.</strong></p>
@@ -84,7 +84,7 @@ export default function About() {
               <div className="section-chip">🌟 Who is Our Founder &amp; CEO</div>
               <h2 style={{ fontSize:"clamp(22px,3.5vw,34px)", fontWeight:900, color:"#0C2340", marginBottom:6 }}>Paulette Trowers-Lawrence, JD</h2>
               <div style={{ fontSize:13, color:"#F5820A", fontWeight:700, marginBottom:20 }}>Founder &amp; CEO, CHEETAH Toys &amp; More, LLC</div>
-              <p style={{ fontSize:15, color:"#5A5240", lineHeight:1.85, marginBottom:16 }}>Paulette Trowers-Lawrence, JD is the Founder and CEO of CHEETAH Toys &amp; More, LLC and the visionary behind FastTrack Literacy™.</p>
+              <p style={{ fontSize:15, color:"#5A5240", lineHeight:1.85, marginBottom:16 }}>Paulette Trowers-Lawrence, JD is the Founder and CEO of CHEETAH Toys &amp; More, LLC and the visionary behind Client Work.</p>
               <p style={{ fontSize:15, color:"#5A5240", lineHeight:1.85, marginBottom:16 }}>A trained USA lawyer, global literacy leader, author, entrepreneur, and education innovator committed to improving reading outcomes for children worldwide.</p>
               <p style={{ fontSize:15, color:"#5A5240", lineHeight:1.85, marginBottom:16 }}>She holds a <strong>Juris Doctor with honors</strong>, is a recipient of the <strong>USA Presidential Lifetime Achievement Award (2024)</strong>, and has been awarded an <strong>Honorary Doctorate of Humanitarianism</strong>.</p>
               <p style={{ fontSize:15, color:"#5A5240", lineHeight:1.85, marginBottom:16 }}>With over 30 years of corporate and business experience, she has led the development of more than <strong>1,100 educational resources</strong>, integrating curriculum, technology, and AI to support learning across diverse environments.</p>

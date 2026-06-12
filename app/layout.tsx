@@ -11,8 +11,8 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "FastTrack Literacy™ — CHEETAH® | Every Child Can Read",
-  description: "FastTrack Literacy™ by CHEETAH® is a structured, evidence-based reading program for children ages 3–8. Combining Science of Reading with reggae songs, decodable books, and AI technology.",
+  title: "Client Work — CHEETAH® | Every Child Can Read",
+  description: "Client Work by CHEETAH® is a structured, evidence-based reading program for children ages 3–8. Combining Science of Reading with reggae songs, decodable books, and AI technology.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

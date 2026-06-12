@@ -81,7 +81,7 @@ export default function Home() {
         <div className="container" style={{ position:"relative", zIndex:2, padding:"clamp(100px,14vh,140px) 24px clamp(80px,10vh,100px)" }}>
           <div className="grid-2">
             <div>
-              <div style={{ display:"inline-flex", alignItems:"center", gap:8, marginBottom:20, background:"rgba(245,130,10,0.15)", border:"1px solid rgba(245,130,10,0.3)", padding:"6px 16px", borderRadius:50, fontSize:12, fontWeight:700, color:"#FFB366" }}>🚂 FastTrack Literacy™ by CHEETAH®</div>
+              <div style={{ display:"inline-flex", alignItems:"center", gap:8, marginBottom:20, background:"rgba(245,130,10,0.15)", border:"1px solid rgba(245,130,10,0.3)", padding:"6px 16px", borderRadius:50, fontSize:12, fontWeight:700, color:"#FFB366" }}>🚂 Client Work by CHEETAH®</div>
               <h1 style={{ fontSize:"clamp(28px,4.5vw,52px)", fontWeight:900, color:"white", marginBottom:16, lineHeight:1.15 }}>
                 Accelerating the ability to read, write, understand, and apply information.
               </h1>
@@ -108,19 +108,19 @@ export default function Home() {
         </div>
       </section>
 
-      {/* WHAT IS FASTTRACK — with real image */}
+      {/* WHAT IS CLIENT WORK — with real image */}
       <section className="section" style={{ background:"#FFF9F4" }}>
         <div className="container">
           <div className="grid-2">
             <div>
               <div className="section-chip">🚂 A Literacy Journey</div>
-              <h2 style={{ fontSize:"clamp(26px,4vw,40px)", fontWeight:900, color:"#0C2340", marginBottom:16 }}>What is FastTrack Literacy™?</h2>
-              <p style={{ fontSize:15, color:"#5A5240", lineHeight:1.85, marginBottom:18 }}>FastTrack Literacy™ is a structured early reading programme with <strong>90+ integrated resources</strong> that teaches children how letters sound, connect, and form words. Grounded in the <strong>Science of Reading</strong>, it integrates the five pillars of phonemic awareness, phonics, fluency, vocabulary, and comprehension.</p>
+              <h2 style={{ fontSize:"clamp(26px,4vw,40px)", fontWeight:900, color:"#0C2340", marginBottom:16 }}>What is Client Work?</h2>
+              <p style={{ fontSize:15, color:"#5A5240", lineHeight:1.85, marginBottom:18 }}>Client Work is a structured early reading programme with <strong>90+ integrated resources</strong> that teaches children how letters sound, connect, and form words. Grounded in the <strong>Science of Reading</strong>, it integrates the five pillars of phonemic awareness, phonics, fluency, vocabulary, and comprehension.</p>
               <p style={{ fontSize:15, color:"#5A5240", lineHeight:1.85, marginBottom:28 }}>Children are not just learners — they become active participants in their reading journey through child-led learning and guided practice, powered by reggae-inspired songs and storytelling.</p>
-              <Link href="/fasttrack" className="btn-orange">Learn More →</Link>
+              <Link href="/clientwork" className="btn-orange">Learn More →</Link>
             </div>
             <div>
-              <Image src="/images/jamder-books.png" alt="FastTrack Literacy™ Books Collection" width={800} height={450} style={{ width:"100%", height:"auto", borderRadius:16, boxShadow:"0 8px 32px rgba(0,0,0,0.08)" }} />
+              <Image src="/images/jamder-books.png" alt="Client Work Books Collection" width={800} height={450} style={{ width:"100%", height:"auto", borderRadius:16, boxShadow:"0 8px 32px rgba(0,0,0,0.08)" }} />
             </div>
           </div>
         </div>
@@ -134,7 +134,7 @@ export default function Home() {
               <div className="section-chip">📊 A Global Need</div>
               <h2 style={{ fontSize:"clamp(24px,3.5vw,36px)", fontWeight:900, color:"#0C2340", marginBottom:16 }}>Why Early Literacy Matters</h2>
               <p style={{ fontSize:15, color:"#5A5240", lineHeight:1.85, marginBottom:16 }}>According to <strong>UNESCO (2023)</strong>, over <strong>770 million people</strong> globally lack basic literacy skills. In the US, <strong>37% of fourth-graders</strong> read below basic levels. In Jamaica, less than <strong>50% of Grade 4 students</strong> meet literacy standards. In Uganda, only <strong>3 in 10 Primary 3 children</strong> can read a simple English story.</p>
-              <p style={{ fontSize:15, color:"#5A5240", lineHeight:1.85, marginBottom:24 }}>FastTrack Literacy™ was created to build strong foundations early, before gaps widen. We are connecting home and school for literacy growth!</p>
+              <p style={{ fontSize:15, color:"#5A5240", lineHeight:1.85, marginBottom:24 }}>Client Work was created to build strong foundations early, before gaps widen. We are connecting home and school for literacy growth!</p>
               <div style={{ background:"#FFF0E0", borderLeft:"4px solid #F5820A", padding:"16px 20px", borderRadius:"0 12px 12px 0" }}>
                 <p style={{ fontSize:14, fontStyle:"italic", color:"#0C2340", lineHeight:1.7 }}>"When children struggle to read, they fall behind in school, lose confidence, and face long-term academic and economic challenges."</p>
               </div>
@@ -150,19 +150,19 @@ export default function Home() {
             <div>
               <div className="section-chip">👧 Who Is It For</div>
               <h2 style={{ fontSize:"clamp(24px,3.5vw,36px)", fontWeight:900, color:"#0C2340", marginBottom:16 }}>Designed for Ages 5+ and Their Families</h2>
-              <p style={{ fontSize:15, color:"#5A5240", lineHeight:1.85, marginBottom:16 }}>Primarily designed for children ages 5+ and their families because reading success starts early and grows at home. FastTrack Literacy™ is adaptive and can be used across a wide range of age groups, supporting learners at different reading levels.</p>
-              <p style={{ fontSize:15, color:"#5A5240", lineHeight:1.85, marginBottom:24 }}>FastTrack Literacy™ is also a great resource for educators and parents. CHEETAH® is empowering young readers and their families!</p>
+              <p style={{ fontSize:15, color:"#5A5240", lineHeight:1.85, marginBottom:16 }}>Primarily designed for children ages 5+ and their families because reading success starts early and grows at home. Client Work is adaptive and can be used across a wide range of age groups, supporting learners at different reading levels.</p>
+              <p style={{ fontSize:15, color:"#5A5240", lineHeight:1.85, marginBottom:24 }}>Client Work is also a great resource for educators and parents. CHEETAH® is empowering young readers and their families!</p>
               <div style={{ display:"flex", flexDirection:"column", gap:10 }}>
                 {[{icon:"👶",l:"Early Learners (Ages 3–5) — Phonemic awareness & early phonics"},{icon:"👧",l:"Primary Students (Ages 5–8) — Full programme with progress tracking"},{icon:"👩‍🏫",l:"Classroom Teachers — Complete instructional package"},{icon:"👨‍👩‍👧",l:"Parents — Home support guides & family engagement"}].map(f=>(
                   <div key={f.l} style={{ display:"flex", gap:10, alignItems:"flex-start", fontSize:14, color:"#5A5240" }}><span style={{ flexShrink:0 }}>{f.icon}</span>{f.l}</div>
                 ))}
               </div>
               <div style={{ marginTop:24 }}>
-                <Link href="/fasttrack" className="btn-orange">Explore the Program →</Link>
+                <Link href="/clientwork" className="btn-orange">Explore the Program →</Link>
               </div>
             </div>
             <div>
-              <Image src="/images/mother-child-reading.png" alt="Mother and child reading with FastTrack Phonics" width={500} height={800} style={{ width:"100%", height:"auto", borderRadius:16, boxShadow:"0 8px 32px rgba(0,0,0,0.08)" }} />
+              <Image src="/images/mother-child-reading.png" alt="Mother and child reading with Client Work Phonics" width={500} height={800} style={{ width:"100%", height:"auto", borderRadius:16, boxShadow:"0 8px 32px rgba(0,0,0,0.08)" }} />
             </div>
           </div>
         </div>
@@ -189,8 +189,8 @@ export default function Home() {
           <div className="grid-2">
             <div>
               <div className="section-chip">🚀 More Than a Program</div>
-              <h2 style={{ fontSize:"clamp(24px,3.5vw,36px)", fontWeight:900, color:"#0C2340", marginBottom:16 }}>What Makes FastTrack Literacy™ Different</h2>
-              <p style={{ fontSize:15, color:"#5A5240", lineHeight:1.85, marginBottom:16 }}>FastTrack Literacy™ goes beyond traditional instruction by combining structured literacy with engaging, real-world learning experiences. It integrates the <strong>Science of Reading</strong> with music, rhythm, and storytelling to make learning both effective and enjoyable.</p>
+              <h2 style={{ fontSize:"clamp(24px,3.5vw,36px)", fontWeight:900, color:"#0C2340", marginBottom:16 }}>What Makes Client Work Different</h2>
+              <p style={{ fontSize:15, color:"#5A5240", lineHeight:1.85, marginBottom:16 }}>Client Work goes beyond traditional instruction by combining structured literacy with engaging, real-world learning experiences. It integrates the <strong>Science of Reading</strong> with music, rhythm, and storytelling to make learning both effective and enjoyable.</p>
               <p style={{ fontSize:15, color:"#5A5240", lineHeight:1.85, marginBottom:24 }}>🎵 <strong>Science + Engagement</strong> — reggae-inspired songs, decodable books, and visual supports ensure children not only understand how reading works but also enjoy the process.</p>
               <div style={{ display:"flex", gap:20, flexWrap:"wrap" }}>
                 {[["👉","Confident readers"],["👉","Faster progress"],["👉","Stronger foundations"]].map(([icon,text])=>(
@@ -200,7 +200,7 @@ export default function Home() {
               <p style={{ fontSize:14, fontStyle:"italic", color:"#F5820A", fontWeight:700, marginTop:16 }}>We are nation builders — one letter at a time!</p>
             </div>
             <div>
-              <Image src="/images/what-makes-different.png" alt="What Makes FastTrack Phonics Different" width={600} height={900} style={{ width:"100%", height:"auto", borderRadius:16, boxShadow:"0 8px 32px rgba(0,0,0,0.08)" }} />
+              <Image src="/images/what-makes-different.png" alt="What Makes Client Work Phonics Different" width={600} height={900} style={{ width:"100%", height:"auto", borderRadius:16, boxShadow:"0 8px 32px rgba(0,0,0,0.08)" }} />
             </div>
           </div>
         </div>
@@ -214,7 +214,7 @@ export default function Home() {
             <p style={{ fontSize:15, color:"rgba(255,255,255,0.6)", marginTop:10 }}>Real results from classrooms across Jamaica, the US, and beyond</p>
           </div>
           <div className="grid-auto">
-            {[{q:"The iCHEETAH® has been a great motivator in my classroom. I use it as an incentive to keep students focused on their work, and they look forward to engaging with the educational games and apps.",n:"Ms. Hunter",r:"Grade 1 Teacher, Jamaica"},{q:"I had the opportunity to review CHEETAH® resources prior to their public release. I am encouraged to see FastTrack Literacy™ being thoughtfully adapted for Jamaica and other countries. These are the kinds of tools I would have valued in my own classroom.",n:"Dr. Clarke",r:"Past College President, Jamaica"},{q:"My son enjoys the decodable books and is building confidence with high-frequency words. He is more willing to read on his own.",n:"Miss Miller",r:"Literacy Coach, Florida, USA"}].map(t=>(
+            {[{q:"The iCHEETAH® has been a great motivator in my classroom. I use it as an incentive to keep students focused on their work, and they look forward to engaging with the educational games and apps.",n:"Ms. Hunter",r:"Grade 1 Teacher, Jamaica"},{q:"I had the opportunity to review CHEETAH® resources prior to their public release. I am encouraged to see Client Work being thoughtfully adapted for Jamaica and other countries. These are the kinds of tools I would have valued in my own classroom.",n:"Dr. Clarke",r:"Past College President, Jamaica"},{q:"My son enjoys the decodable books and is building confidence with high-frequency words. He is more willing to read on his own.",n:"Miss Miller",r:"Literacy Coach, Florida, USA"}].map(t=>(
               <div key={t.n} style={{ background:"rgba(255,255,255,0.08)", border:"1px solid rgba(255,255,255,0.12)", borderRadius:20, padding:28 }}>
                 <div style={{ color:"#F5820A", fontSize:18, marginBottom:14 }}>★★★★★</div>
                 <p style={{ fontSize:14, color:"rgba(255,255,255,0.9)", lineHeight:1.8, marginBottom:20, fontStyle:"italic" }}>"{t.q}"</p>
@@ -248,7 +248,7 @@ export default function Home() {
       <section className="section" style={{ background:"#FFF0E0", textAlign:"center" }}>
         <div className="container-xs">
           <div style={{ marginBottom:16 }}>
-            <Image src="/images/train-poster.png" alt="Built Around the FastTrack Train — Speeding Up Reading Successes" width={600} height={400} style={{ width:"100%", maxWidth:500, height:"auto", margin:"0 auto", display:"block" }} />
+            <Image src="/images/train-poster.png" alt="Built Around the Client Work Train — Speeding Up Reading Successes" width={600} height={400} style={{ width:"100%", maxWidth:500, height:"auto", margin:"0 auto", display:"block" }} />
           </div>
           <h2 style={{ fontSize:"clamp(26px,4vw,42px)", fontWeight:900, color:"#0C2340", marginBottom:16 }}>Ready to Start the Literacy Journey?</h2>
           

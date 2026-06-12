@@ -13,7 +13,7 @@ const slideLabels = ["Cover","Completed","Needs From You","Go Live"];
 function Slide0() {
   return (
     <div style={{ display:"flex", flexDirection:"column", justifyContent:"center", alignItems:"center", minHeight:"100%", textAlign:"center", padding:"0 clamp(20px,6vw,80px)" }}>
-      <div style={{ fontSize:"clamp(10px,1.3vw,12px)", letterSpacing:"3px", textTransform:"uppercase", color:ORANGE, marginBottom:20, fontWeight:600 }}>FastTrack Literacy™ · CHEETAH®</div>
+      <div style={{ fontSize:"clamp(10px,1.3vw,12px)", letterSpacing:"3px", textTransform:"uppercase", color:ORANGE, marginBottom:20, fontWeight:600 }}>Client Work · CHEETAH®</div>
       <h1 style={{ fontSize:"clamp(30px,6vw,72px)", fontWeight:900, color:WHITE, lineHeight:1.05, marginBottom:20, fontFamily:"'Nunito',sans-serif" }}>
         Website Progress<br/><span style={{ color:ORANGE }}>Update</span>
       </h1>
@@ -29,7 +29,7 @@ function Slide0() {
           </div>
         ))}
       </div>
-      <a href="https://fasttrack-cheetah-3.vercel.app" target="_blank" rel="noopener noreferrer" style={{ background:ORANGE, color:WHITE, textDecoration:"none", padding:"14px 32px", borderRadius:50, fontSize:"clamp(13px,1.5vw,15px)", fontWeight:700, fontFamily:"'Nunito',sans-serif" }}>
+      <a href="https://clientwork-cheetah-3.vercel.app" target="_blank" rel="noopener noreferrer" style={{ background:ORANGE, color:WHITE, textDecoration:"none", padding:"14px 32px", borderRadius:50, fontSize:"clamp(13px,1.5vw,15px)", fontWeight:700, fontFamily:"'Nunito',sans-serif" }}>
         🌐 View Live Preview →
       </a>
       <div style={{ position:"absolute", bottom:40, fontSize:11, color:"rgba(255,255,255,0.2)", letterSpacing:"2px", textTransform:"uppercase" }}>Tap or swipe to continue</div>
@@ -71,7 +71,7 @@ function Slide1() {
       <div style={{ marginTop:16, background:"rgba(245,130,10,0.08)", border:"1px solid rgba(245,130,10,0.2)", borderRadius:12, padding:"12px 16px", display:"flex", alignItems:"center", gap:12 }}>
         <span style={{ fontSize:16 }}>🌐</span>
         <span style={{ fontSize:"clamp(12px,1.4vw,13px)", color:"rgba(255,255,255,0.55)" }}>Preview: </span>
-        <a href="https://fasttrack-cheetah-3.vercel.app" target="_blank" rel="noopener noreferrer" style={{ fontSize:"clamp(12px,1.4vw,13px)", color:ORANGE, fontWeight:700, textDecoration:"none" }}>fasttrack-cheetah-3.vercel.app</a>
+        <a href="https://clientwork-cheetah-3.vercel.app" target="_blank" rel="noopener noreferrer" style={{ fontSize:"clamp(12px,1.4vw,13px)", color:ORANGE, fontWeight:700, textDecoration:"none" }}>clientwork-cheetah-3.vercel.app</a>
       </div>
     </div>
   );
@@ -79,10 +79,10 @@ function Slide1() {
 
 function Slide2() {
   const needed = [
-    { n:"01", t:"Updated FastTrack Phonics Logo", b:"To replace the current logo and make it larger on the homepage. Please send the new logo file.", urgent:true },
+    { n:"01", t:"Updated Client Work Phonics Logo", b:"To replace the current logo and make it larger on the homepage. Please send the new logo file.", urgent:true },
     { n:"02", t:"Careers Page Content", b:"You mentioned you will send this. Once received, I will build the Careers section immediately.", urgent:true },
     { n:"03", t:"Flip Books Asset", b:"Please send the flip books file so it can be embedded on the site.", urgent:false },
-    { n:"04", t:"FastTrack Flip Logo", b:"The flip logo is separate from the main logo — please send when ready.", urgent:false },
+    { n:"04", t:"Client Work Flip Logo", b:"The flip logo is separate from the main logo — please send when ready.", urgent:false },
     { n:"05", t:"Formspree Account", b:"Create a free account at formspree.io using info@mycheetahinc.com, then share the form IDs. This connects all 4 forms to your inbox.", urgent:true },
     { n:"06", t:"GoDaddy Login / Delegate Access", b:"To connect your custom domain. We can do this together whenever you are ready.", urgent:true },
   ];
@@ -130,11 +130,11 @@ function Slide3() {
           </div>
         ))}
       </div>
-      <a href="https://fasttrack-cheetah-3.vercel.app" target="_blank" rel="noopener noreferrer" style={{ background:ORANGE, color:WHITE, textDecoration:"none", padding:"16px 40px", borderRadius:50, fontSize:"clamp(14px,1.6vw,16px)", fontWeight:800, fontFamily:"'Nunito',sans-serif", display:"inline-block" }}>
+      <a href="https://clientwork-cheetah-3.vercel.app" target="_blank" rel="noopener noreferrer" style={{ background:ORANGE, color:WHITE, textDecoration:"none", padding:"16px 40px", borderRadius:50, fontSize:"clamp(14px,1.6vw,16px)", fontWeight:800, fontFamily:"'Nunito',sans-serif", display:"inline-block" }}>
         🌐 Preview the Site →
       </a>
       <p style={{ marginTop:20, fontSize:"clamp(11px,1.3vw,13px)", color:"rgba(255,255,255,0.25)" }}>
-        fasttrack-cheetah-3.vercel.app
+        clientwork-cheetah-3.vercel.app
       </p>
     </div>
   );
@@ -200,7 +200,7 @@ export default function ProgressDeck() {
       <div style={{ position:"absolute", top:0, left:0, right:0, display:"flex", justifyContent:"space-between", alignItems:"center", padding:"clamp(14px,2.5vw,22px) clamp(18px,4vw,40px)", zIndex:10 }}>
         <div style={{ display:"flex", alignItems:"center", gap:8 }}>
           <div style={{ width:7, height:7, borderRadius:"50%", background:ORANGE }} />
-          <span style={{ fontSize:"clamp(10px,1.3vw,12px)", color:"rgba(255,255,255,0.3)", letterSpacing:"2px", textTransform:"uppercase" }}>FastTrack · CHEETAH®</span>
+          <span style={{ fontSize:"clamp(10px,1.3vw,12px)", color:"rgba(255,255,255,0.3)", letterSpacing:"2px", textTransform:"uppercase" }}>Client Work · CHEETAH®</span>
         </div>
         <div style={{ fontSize:"clamp(10px,1.2vw,11px)", color:"rgba(255,255,255,0.2)" }}>
           {String(current+1).padStart(2,"0")} / {String(total).padStart(2,"0")}

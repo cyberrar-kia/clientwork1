@@ -11,22 +11,22 @@ const navLinks = [
     sub:[
       { href:"/about#who-we-are", label:"Who We Are" },
       { href:"/about#ecosystem", label:"A Global Literacy Ecosystem" },
-      { href:"/about#fasttrack", label:"What is FastTrack Literacy™" },
+      { href:"/about#clientwork", label:"What is Client Work" },
       { href:"/about#founder", label:"Who is Our Founder & CEO" },
       { href:"/about#team", label:"Our Team & Partners" },
       { href:"/about#partner", label:"How to Partner with Us" },
     ]
   },
   {
-    href:"/fasttrack", label:"About FastTrack Literacy™",
+    href:"/clientwork", label:"About Client Work",
     sub:[
-      { href:"/fasttrack#what-is", label:"What is FastTrack Literacy™?" },
-      { href:"/fasttrack#why-matters", label:"Why the Programme Matters" },
-      { href:"/fasttrack#who-for", label:"Who is the Programme For" },
-      { href:"/fasttrack#what-makes", label:"What Makes It Different" },
-      { href:"/fasttrack#brand-experience", label:"The FastTrack Train" },
-      { href:"/fasttrack#comparison", label:"FastTrack vs. Traditional" },
-      { href:"/fasttrack#why-choose", label:"Why Choose FastTrack Literacy™?" },
+      { href:"/clientwork#what-is", label:"What is Client Work?" },
+      { href:"/clientwork#why-matters", label:"Why the Programme Matters" },
+      { href:"/clientwork#who-for", label:"Who is the Programme For" },
+      { href:"/clientwork#what-makes", label:"What Makes It Different" },
+      { href:"/clientwork#brand-experience", label:"The Client Work Train" },
+      { href:"/clientwork#comparison", label:"Client Work vs. Traditional" },
+      { href:"/clientwork#why-choose", label:"Why Choose Client Work?" },
     ]
   },
   {
@@ -61,7 +61,7 @@ export default function Navbar() {
     <nav style={{ position:"sticky", top:0, zIndex:100, background:"rgba(12,35,64,0.97)", backdropFilter:"blur(12px)", borderBottom:"1px solid rgba(255,255,255,0.08)" }}>
       <div style={{ maxWidth:1200, margin:"0 auto", padding:"0 20px", height:68, display:"flex", alignItems:"center", justifyContent:"space-between" }}>
         <Link href="/" style={{ textDecoration:"none", display:"flex", alignItems:"center", gap:10, flexShrink:0 }}>
-          <Image src="/images/fasttrack-literacy-logo.png" alt="FastTrack Literacy Program" width={400} height={120} style={{ height:52, width:"auto", objectFit:"contain", marginRight:10 }} />
+          <Image src="/images/clientwork-literacy-logo.png" alt="Client Work Program" width={400} height={120} style={{ height:52, width:"auto", objectFit:"contain", marginRight:10 }} />
           <Image src="/images/cheetah-logo.png" alt="CHEETAH®" width={180} height={72} style={{ height:64, width:"auto", objectFit:"contain", mixBlendMode:"screen", marginRight:"0.7mm" }} />
         </Link>
 
