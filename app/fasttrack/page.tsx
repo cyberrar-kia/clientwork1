@@ -30,7 +30,7 @@ export default function Client WorkPage() {
               <h2 style={{ fontSize:"clamp(22px,3.5vw,34px)", fontWeight:900, color:"#0C2340", marginBottom:16 }}>What is Client Work?</h2>
               <p style={{ fontSize:15, color:"#5A5240", lineHeight:1.85, marginBottom:16 }}>Client Work is a structured early reading programme that teaches children how letters sound, connect, and form words.</p>
               <p style={{ fontSize:15, color:"#5A5240", lineHeight:1.85, marginBottom:16 }}>Grounded in the <strong>evidence-based Science of Reading</strong>, it integrates the five pillars of <strong>phonemic awareness, phonics, fluency, vocabulary, and comprehension</strong> to build strong, confident readers, particularly during the formative years.</p>
-              <p style={{ fontSize:15, color:"#5A5240", lineHeight:1.85, marginBottom:16 }}>Client Work is supported by an extensive suite of <strong>over 90 integrated resources</strong>, including more than 70 decodable books, flashcards, songs and movement activities, structured lesson materials, and AI-enhanced supervised learning tools. Content is delivered through CHEETAH's proprietary digital media, including the iCHEETAH™ device and branded tablets, creating a seamless blend of curriculum, technology, and assessment.</p>
+              <p style={{ fontSize:15, color:"#5A5240", lineHeight:1.85, marginBottom:16 }}>Client Work is supported by an extensive suite of <strong>over 90 integrated resources</strong>, including more than 70 decodable books, flashcards, songs and movement activities, structured lesson materials, and AI-enhanced supervised learning tools. Content is delivered through Client Work's proprietary digital media, including the iCW™ device and branded tablets, creating a seamless blend of curriculum, technology, and assessment.</p>
               <p style={{ fontSize:15, color:"#5A5240", lineHeight:1.85, marginBottom:24 }}>Children are not just learners — they become <strong>active participants</strong> in their reading journey through child-led learning and guided practice.</p>
             </div>
             <div>
@@ -166,9 +166,9 @@ export default function Client WorkPage() {
                   ["Core Skills","Phonemic awareness, phonics, fluency, vocabulary, comprehension","Limited to phonics only"],
                   ["Reading + Writing","Strong focus on both decoding (reading) and encoding (writing)","Often reading only"],
                   ["Engagement","Reggae songs, rhythm, storytelling, visual supports","Worksheets and repetition"],
-                  ["Cultural Relevance","Culturally responsive (JamDER™, global editions)","Generic Western content"],
+                  ["Cultural Relevance","Culturally responsive (CW Reader, global editions)","Generic Western content"],
                   ["Curriculum Fit","Aligned with national curriculum standards and classroom instruction","Often standalone"],
-                  ["Technology","iCHEETAH™ AI robot, tablets, apps, digital tools","Limited or none"],
+                  ["Technology","iCW™ AI robot, tablets, apps, digital tools","Limited or none"],
                   ["Home Connection","Active family involvement built into the system","School only"],
                   ["Assessment","Built-in progress monitoring and measurable outcomes","End-of-term testing"],
                   ["Student Impact","Builds confident, independent readers who can apply and teach others","Passive learners"],
@@ -250,7 +250,7 @@ export default function Client WorkPage() {
               <button onClick={() => setWhoOpen(false)} style={{ background:"none", border:"1px solid #EDE0D0", borderRadius:8, padding:"6px 12px", cursor:"pointer", fontSize:16 }}>✕</button>
             </div>
             <p style={{ fontSize:14, color:"#5A5240", lineHeight:1.85, marginBottom:16 }}><strong>Client Work©</strong> is adaptive and can be used across a wide range of age groups, supporting learners at different reading levels. Client Work© is also a great resource for educators and parents.</p>
-            <p style={{ fontSize:14, color:"#F5820A", fontWeight:700, marginBottom:20 }}>CHEETAH® is empowering young readers and their families!</p>
+            <p style={{ fontSize:14, color:"#F5820A", fontWeight:700, marginBottom:20 }}>Client Work is empowering young readers and their families!</p>
             <Image src="/images/image7.png" alt="Client Work: Empowering Young Readers and Their Families" width={600} height={1100} style={{ width:"100%", height:"auto", borderRadius:12, marginBottom:20 }} />
             <Image src="/images/image6.png" alt="Client Work: Building Early Reading Success" width={900} height={500} style={{ width:"100%", height:"auto", borderRadius:12, marginBottom:20 }} />
             <button onClick={() => setWhoOpen(false)} style={{ width:"100%", background:"#0C2340", color:"white", border:"none", borderRadius:50, padding:14, fontSize:14, fontWeight:800, fontFamily:"'Nunito',sans-serif", cursor:"pointer" }}>Close</button>
@@ -291,9 +291,9 @@ export default function Client WorkPage() {
                     ["Core Skills","Phonemic awareness, phonics, fluency, vocabulary, comprehension"],
                     ["Reading + Writing","Strong focus on both decoding (reading) and encoding (writing)"],
                     ["Engagement","Reggae-inspired songs, rhythm, storytelling, and visual supports"],
-                    ["Cultural Relevance","Customised, culturally responsive content (e.g., JamDER™ and global editions)"],
+                    ["Cultural Relevance","Customised, culturally responsive content (e.g., CW Reader and global editions)"],
                     ["Curriculum Fit","Aligned with national curriculum standards and classroom instruction"],
-                    ["Technology","Integrated ecosystem: books, apps, AI tools, and iCHEETAH™ device"],
+                    ["Technology","Integrated ecosystem: books, apps, AI tools, and iCW™ device"],
                     ["Home Connection","Extends learning into the home with active family involvement"],
                     ["Assessment","Built-in progress monitoring and measurable outcomes"],
                     ["Student Impact","Builds confident, independent readers who can apply and teach others"],

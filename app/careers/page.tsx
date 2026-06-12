@@ -9,17 +9,17 @@ const roles = [
     icon:"🐆",
     tag:"Jamaica",
     tagColor:"green",
-    title:"CHEETAH Activation Ambassadors",
+    title:"Client Work Activation Ambassadors",
     subtitle:"Parish Representatives & Regional Leaders",
     type:"Field-Based · Commission",
     location:"Jamaica — 1 per Parish",
     start:"May 2026",
-    overview:"CHEETAH® is building a national, field-based team to drive school engagement and product adoption across Jamaica. We are recruiting Parish Representatives (1 per parish) and Regional Leaders to begin activation in May 2026. This is a sales, marketing, and education engagement role focused on introducing and scaling CHEETAH's solutions in schools.",
+    overview:"Client Work is building a national, field-based team to drive school engagement and product adoption across Jamaica. We are recruiting Parish Representatives (1 per parish) and Regional Leaders to begin activation in May 2026. This is a sales, marketing, and education engagement role focused on introducing and scaling Client Work's solutions in schools.",
     responsibilities:[
-      { heading:"School Engagement", items:["Visit schools within your assigned parish","Meet with principals, teachers, and administrators","Reintroduce CHEETAH's Ministry-aligned resources"] },
+      { heading:"School Engagement", items:["Visit schools within your assigned parish","Meet with principals, teachers, and administrators","Reintroduce Client Work's Ministry-aligned resources"] },
       { heading:"Product Demonstration", items:["Present PEP preparation workbooks and textbooks","Demonstrate Client Work programme materials","Showcase supplementary charts and classroom tools"] },
       { heading:"Student Activation", items:["Deliver short, engaging sessions to build excitement","Support school-based activities and demonstrations"] },
-      { heading:"Sales & Follow-Up", items:["Generate interest and secure orders","Coordinate with the central CHEETAH team for fulfilment","Maintain relationships with schools"] },
+      { heading:"Sales & Follow-Up", items:["Generate interest and secure orders","Coordinate with the central Client Work team for fulfilment","Maintain relationships with schools"] },
     ],
     requirements:["Strong communication and presentation skills","Passion for education and literacy","Self-motivated and target-driven","Knowledge of the Jamaican school system preferred"],
     compensation:"Commission-based with performance bonuses.",
@@ -30,12 +30,12 @@ const roles = [
     icon:"📢",
     tag:"Global",
     tagColor:"blue",
-    title:"CHEETAH Publicist",
+    title:"Client Work Publicist",
     subtitle:"Media & Brand Visibility",
     type:"Retainer or Performance-Based",
     location:"Remote — Global",
     start:"Immediate",
-    overview:"CHEETAH® is seeking a results-driven Publicist to increase visibility and media presence for our education and technology brand. The Publicist will manage press, media outreach, and brand storytelling to position CHEETAH as a leading literacy and education solution.",
+    overview:"Client Work is seeking a results-driven Publicist to increase visibility and media presence for our education and technology brand. The Publicist will manage press, media outreach, and brand storytelling to position Client Work as a leading literacy and education solution.",
     responsibilities:[
       { heading:"Media & PR Strategy", items:["Develop and execute media and publicity strategies","Secure press coverage across TV, radio, online, and print","Manage relationships with media houses and journalists"] },
       { heading:"Content & Brand", items:["Write press releases, media kits, and brand stories","Coordinate interviews, features, and speaking opportunities"] },
@@ -54,12 +54,12 @@ const roles = [
     type:"Field-Based · Commission",
     location:"United States — Territory-Based",
     start:"Immediate",
-    overview:"CHEETAH® is expanding into the United States and is recruiting results-driven sales professionals to introduce and scale our literacy and education solutions in private schools. This is a field-based role focused on direct school engagement, presentations to principals, and closing institutional sales.",
+    overview:"Client Work is expanding into the United States and is recruiting results-driven sales professionals to introduce and scale our literacy and education solutions in private schools. This is a field-based role focused on direct school engagement, presentations to principals, and closing institutional sales.",
     responsibilities:[
       { heading:"School Outreach", items:["Identify and visit private schools within your assigned territory","Schedule and conduct meetings with principals and administrators","Build and maintain strong relationships"] },
-      { heading:"Presentations & Demos", items:["Deliver clear, structured presentations","Communicate student performance gaps and CHEETAH's solution","Demonstrate products and explain implementation"] },
-      { heading:"Sales Conversion", items:["Secure school-level adoption and bulk orders","Follow up consistently to close deals","Coordinate onboarding with the CHEETAH team"] },
-      { heading:"Market Development", items:["Build a pipeline of schools and referrals","Establish CHEETAH's presence in your region","Provide feedback on market response"] },
+      { heading:"Presentations & Demos", items:["Deliver clear, structured presentations","Communicate student performance gaps and Client Work's solution","Demonstrate products and explain implementation"] },
+      { heading:"Sales Conversion", items:["Secure school-level adoption and bulk orders","Follow up consistently to close deals","Coordinate onboarding with the Client Work team"] },
+      { heading:"Market Development", items:["Build a pipeline of schools and referrals","Establish Client Work's presence in your region","Provide feedback on market response"] },
     ],
     requirements:["Proven sales experience, preferably in education","Strong presentation and relationship-building skills","Self-motivated with a results-driven mindset","Knowledge of the US private school sector preferred"],
     compensation:"Commission-based with performance bonuses.",
@@ -75,7 +75,7 @@ const roles = [
     type:"Remote · Part or Full Time",
     location:"Global — EST Hours Required",
     start:"Immediate",
-    overview:"CHEETAH® is seeking a highly organised and reliable Virtual Administrative Coordinator to support daily operations, communication, and coordination across our global education and technology initiatives. This remote role is open worldwide — candidates must be available during New York (Eastern) time zone hours.",
+    overview:"Client Work is seeking a highly organised and reliable Virtual Administrative Coordinator to support daily operations, communication, and coordination across our global education and technology initiatives. This remote role is open worldwide — candidates must be available during New York (Eastern) time zone hours.",
     responsibilities:[
       { heading:"Administrative Support", items:["Manage schedules, meetings, and calendars","Organise documents, files, and internal systems","Prepare reports, summaries, and basic documents"] },
       { heading:"Communication Coordination", items:["Respond to emails and inquiries in a timely, professional manner","Coordinate communication between internal teams, partners, and schools","Support follow-ups and task tracking"] },
@@ -96,7 +96,7 @@ const roles = [
     type:"Remote · Project-Based",
     location:"Remote — Global",
     start:"Immediate",
-    overview:"CHEETAH® is seeking a skilled Web Designer/Developer to enhance the Client Work website and integrate AI workflows. The ideal candidate combines strong design skills, clean code development, and AI-assisted workflows to deliver a high-quality digital experience for educators, parents, and global partners.",
+    overview:"Client Work is seeking a skilled Web Designer/Developer to enhance the Client Work website and integrate AI workflows. The ideal candidate combines strong design skills, clean code development, and AI-assisted workflows to deliver a high-quality digital experience for educators, parents, and global partners.",
     responsibilities:[
       { heading:"Website Design & Development", items:["Design and build responsive pages (mobile + desktop)","Integrate infographics, visuals, and structured content","Deliver clean, deployable code and editable design files"] },
       { heading:"Presentation Design", items:["Convert existing content into professional slide decks","Create pitch decks and training presentations","Ensure consistent branding and visual storytelling"] },
@@ -130,7 +130,7 @@ export default function Careers() {
             Build the Future of<br/><span style={{ color:"#F5820A" }}>Literacy Together</span>
           </h1>
           <p style={{ fontSize:"clamp(14px,1.8vw,17px)", color:"rgba(255,255,255,0.65)", lineHeight:1.8, maxWidth:520, margin:"0 auto 32px" }}>
-            CHEETAH® is growing. We are looking for passionate, driven people across Jamaica, the United States, and globally to join our literacy mission.
+            Client Work is growing. We are looking for passionate, driven people across Jamaica, the United States, and globally to join our literacy mission.
           </p>
           <div style={{ display:"flex", justifyContent:"center", gap:clamp("16px","3vw","32px"), flexWrap:"wrap" }}>
             {[["5","Open Roles"],["3","Countries"],["May 2026","Next Intake"]].map(([n,l]) => (

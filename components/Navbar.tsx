@@ -34,7 +34,7 @@ const navLinks = [
     sub:[
       { href:"/resources#educators", label:"For Educators" },
       { href:"/resources#parents", label:"For Parents/Caregivers" },
-      { href:"/resources#icheetah", label:"Meet iCHEETAH™" },
+      { href:"/resources#icheetah", label:"Meet iCW™" },
       { href:"/resources#all-resources", label:"All Resources" },
       { href:"/resources#free-downloads", label:"Free Resources" },
       { href:"/resources#flipbooks", label:"Read Our Books Online" },
@@ -62,7 +62,7 @@ export default function Navbar() {
       <div style={{ maxWidth:1200, margin:"0 auto", padding:"0 20px", height:68, display:"flex", alignItems:"center", justifyContent:"space-between" }}>
         <Link href="/" style={{ textDecoration:"none", display:"flex", alignItems:"center", gap:10, flexShrink:0 }}>
           <Image src="/images/clientwork-literacy-logo.png" alt="Client Work Program" width={400} height={120} style={{ height:52, width:"auto", objectFit:"contain", marginRight:10 }} />
-          <Image src="/images/cheetah-logo.png" alt="CHEETAH®" width={180} height={72} style={{ height:64, width:"auto", objectFit:"contain", mixBlendMode:"screen", marginRight:"0.7mm" }} />
+          <Image src="/images/cheetah-logo.png" alt="Client Work" width={180} height={72} style={{ height:64, width:"auto", objectFit:"contain", mixBlendMode:"screen", marginRight:"0.7mm" }} />
         </Link>
 
         {/* DESKTOP NAV */}

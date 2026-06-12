@@ -63,7 +63,7 @@ export default function GetStarted() {
             {[
               { icon:"📋", title:"Adopt the Program", desc:"Bring Client Work into your school, organisation, or community.", cta:"Apply Now", href:"/contact" },
               { icon:"🎓", title:"Train Your Team", desc:"Access teacher training, Transformation Weeks, and ongoing support. Over 640 activities to equip every educator.", cta:"Book Training", href:"/contact" },
-              { icon:"🤖", title:"Integrate Technology", desc:"Leverage our full ecosystem — books, digital tools, AI, and iCHEETAH™ devices.", cta:"Explore Resources", href:"/resources" },
+              { icon:"🤖", title:"Integrate Technology", desc:"Leverage our full ecosystem — books, digital tools, AI, and iCW™ devices.", cta:"Explore Resources", href:"/resources" },
               { icon:"❤️", title:"Support the Mission", desc:"Donate or sponsor resources to expand literacy access for underserved communities.", cta:"Contact Us", href:"/contact" },
             ].map(p=>(
               <div key={p.title} style={{ background:"#FFF9F4", border:"1px solid #EDE0D0", borderRadius:16, padding:28 }}>

@@ -13,7 +13,7 @@ const slideLabels = ["Cover","Completed","Needs From You","Go Live"];
 function Slide0() {
   return (
     <div style={{ display:"flex", flexDirection:"column", justifyContent:"center", alignItems:"center", minHeight:"100%", textAlign:"center", padding:"0 clamp(20px,6vw,80px)" }}>
-      <div style={{ fontSize:"clamp(10px,1.3vw,12px)", letterSpacing:"3px", textTransform:"uppercase", color:ORANGE, marginBottom:20, fontWeight:600 }}>Client Work · CHEETAH®</div>
+      <div style={{ fontSize:"clamp(10px,1.3vw,12px)", letterSpacing:"3px", textTransform:"uppercase", color:ORANGE, marginBottom:20, fontWeight:600 }}>Client Work · Client Work</div>
       <h1 style={{ fontSize:"clamp(30px,6vw,72px)", fontWeight:900, color:WHITE, lineHeight:1.05, marginBottom:20, fontFamily:"'Nunito',sans-serif" }}>
         Website Progress<br/><span style={{ color:ORANGE }}>Update</span>
       </h1>
@@ -42,15 +42,15 @@ function Slide1() {
     { icon:"🏠", t:"Home button added to navigation" },
     { icon:"🔶", t:"Active page highlights orange on navbar" },
     { icon:"🎬", t:"Hero video — full screen, instant load" },
-    { icon:"🖼️", t:"NotebookLM watermark removed from all 12 images → replaced with CHEETAH®" },
+    { icon:"🖼️", t:"NotebookLM watermark removed from all 12 images → replaced with Client Work" },
     { icon:"✂️", t:"\"Join thousands...\" line removed from homepage" },
-    { icon:"🐆", t:"CHEETAH® logo added to About page" },
+    { icon:"🐆", t:"Client Work logo added to About page" },
     { icon:"🗑️", t:"37% US 4th graders button removed" },
     { icon:"🗑️", t:"Founder Read More button removed" },
     { icon:"📊", t:"Five Pillars image added to How It Works" },
     { icon:"📄", t:"Phonics Chart PDF — first in Resources, downloadable" },
     { icon:"🎵", t:"3 reggae songs — audio player + download (ANNA-WARRIOR, BIG FISH, BLACK BIRD)" },
-    { icon:"📗", t:"All JamDER™ & C-DER Books added as resource card" },
+    { icon:"📗", t:"All CW Reader & C-DER Books added as resource card" },
     { icon:"📱", t:"All social media linked on Contact page (IG, FB, YT, LinkedIn)" },
     { icon:"🔗", t:"Footer social icons all linked with real URLs + LinkedIn added" },
     { icon:"⚖️", t:"Privacy Policy fully updated on Legal page" },
@@ -200,7 +200,7 @@ export default function ProgressDeck() {
       <div style={{ position:"absolute", top:0, left:0, right:0, display:"flex", justifyContent:"space-between", alignItems:"center", padding:"clamp(14px,2.5vw,22px) clamp(18px,4vw,40px)", zIndex:10 }}>
         <div style={{ display:"flex", alignItems:"center", gap:8 }}>
           <div style={{ width:7, height:7, borderRadius:"50%", background:ORANGE }} />
-          <span style={{ fontSize:"clamp(10px,1.3vw,12px)", color:"rgba(255,255,255,0.3)", letterSpacing:"2px", textTransform:"uppercase" }}>Client Work · CHEETAH®</span>
+          <span style={{ fontSize:"clamp(10px,1.3vw,12px)", color:"rgba(255,255,255,0.3)", letterSpacing:"2px", textTransform:"uppercase" }}>Client Work · Client Work</span>
         </div>
         <div style={{ fontSize:"clamp(10px,1.2vw,11px)", color:"rgba(255,255,255,0.2)" }}>
           {String(current+1).padStart(2,"0")} / {String(total).padStart(2,"0")}

@@ -81,7 +81,7 @@ export default function Home() {
         <div className="container" style={{ position:"relative", zIndex:2, padding:"clamp(100px,14vh,140px) 24px clamp(80px,10vh,100px)" }}>
           <div className="grid-2">
             <div>
-              <div style={{ display:"inline-flex", alignItems:"center", gap:8, marginBottom:20, background:"rgba(245,130,10,0.15)", border:"1px solid rgba(245,130,10,0.3)", padding:"6px 16px", borderRadius:50, fontSize:12, fontWeight:700, color:"#FFB366" }}>🚂 Client Work by CHEETAH®</div>
+              <div style={{ display:"inline-flex", alignItems:"center", gap:8, marginBottom:20, background:"rgba(245,130,10,0.15)", border:"1px solid rgba(245,130,10,0.3)", padding:"6px 16px", borderRadius:50, fontSize:12, fontWeight:700, color:"#FFB366" }}>🚂 Client Work by Client Work</div>
               <h1 style={{ fontSize:"clamp(28px,4.5vw,52px)", fontWeight:900, color:"white", marginBottom:16, lineHeight:1.15 }}>
                 Accelerating the ability to read, write, understand, and apply information.
               </h1>
@@ -151,7 +151,7 @@ export default function Home() {
               <div className="section-chip">👧 Who Is It For</div>
               <h2 style={{ fontSize:"clamp(24px,3.5vw,36px)", fontWeight:900, color:"#0C2340", marginBottom:16 }}>Designed for Ages 5+ and Their Families</h2>
               <p style={{ fontSize:15, color:"#5A5240", lineHeight:1.85, marginBottom:16 }}>Primarily designed for children ages 5+ and their families because reading success starts early and grows at home. Client Work is adaptive and can be used across a wide range of age groups, supporting learners at different reading levels.</p>
-              <p style={{ fontSize:15, color:"#5A5240", lineHeight:1.85, marginBottom:24 }}>Client Work is also a great resource for educators and parents. CHEETAH® is empowering young readers and their families!</p>
+              <p style={{ fontSize:15, color:"#5A5240", lineHeight:1.85, marginBottom:24 }}>Client Work is also a great resource for educators and parents. Client Work is empowering young readers and their families!</p>
               <div style={{ display:"flex", flexDirection:"column", gap:10 }}>
                 {[{icon:"👶",l:"Early Learners (Ages 3–5) — Phonemic awareness & early phonics"},{icon:"👧",l:"Primary Students (Ages 5–8) — Full programme with progress tracking"},{icon:"👩‍🏫",l:"Classroom Teachers — Complete instructional package"},{icon:"👨‍👩‍👧",l:"Parents — Home support guides & family engagement"}].map(f=>(
                   <div key={f.l} style={{ display:"flex", gap:10, alignItems:"flex-start", fontSize:14, color:"#5A5240" }}><span style={{ flexShrink:0 }}>{f.icon}</span>{f.l}</div>
@@ -173,10 +173,10 @@ export default function Home() {
         <div className="container">
           <div style={{ textAlign:"center", marginBottom:32 }}>
             <div className="section-chip" style={{ margin:"0 auto 16px" }}>🌍 About Us</div>
-            <h2 style={{ fontSize:"clamp(22px,4vw,36px)", fontWeight:900, color:"#0C2340", marginBottom:12 }}>The CHEETAH® Literacy Ecosystem</h2>
+            <h2 style={{ fontSize:"clamp(22px,4vw,36px)", fontWeight:900, color:"#0C2340", marginBottom:12 }}>The Client Work Literacy Ecosystem</h2>
             <p style={{ fontSize:15, color:"#5A5240", maxWidth:560, margin:"0 auto 28px", lineHeight:1.7 }}>A comprehensive global framework combining curriculum, technology, and training to improve reading outcomes at scale — across Kenya, Uganda, Jamaica, the USA, and beyond.</p>
           </div>
-          <Image src="/images/image13.png" alt="The CHEETAH® Literacy Ecosystem — A Global Framework" width={1200} height={680} style={{ width:"100%", height:"auto", borderRadius:16, boxShadow:"0 8px 32px rgba(0,0,0,0.08)", marginBottom:32 }} />
+          <Image src="/images/image13.png" alt="The Client Work Literacy Ecosystem — A Global Framework" width={1200} height={680} style={{ width:"100%", height:"auto", borderRadius:16, boxShadow:"0 8px 32px rgba(0,0,0,0.08)", marginBottom:32 }} />
           <div style={{ textAlign:"center" }}>
             <Link href="/about" className="btn-orange">Learn More — About Us →</Link>
           </div>
@@ -214,7 +214,7 @@ export default function Home() {
             <p style={{ fontSize:15, color:"rgba(255,255,255,0.6)", marginTop:10 }}>Real results from classrooms across Jamaica, the US, and beyond</p>
           </div>
           <div className="grid-auto">
-            {[{q:"The iCHEETAH® has been a great motivator in my classroom. I use it as an incentive to keep students focused on their work, and they look forward to engaging with the educational games and apps.",n:"Ms. Hunter",r:"Grade 1 Teacher, Jamaica"},{q:"I had the opportunity to review CHEETAH® resources prior to their public release. I am encouraged to see Client Work being thoughtfully adapted for Jamaica and other countries. These are the kinds of tools I would have valued in my own classroom.",n:"Dr. Clarke",r:"Past College President, Jamaica"},{q:"My son enjoys the decodable books and is building confidence with high-frequency words. He is more willing to read on his own.",n:"Miss Miller",r:"Literacy Coach, Florida, USA"}].map(t=>(
+            {[{q:"The iCW has been a great motivator in my classroom. I use it as an incentive to keep students focused on their work, and they look forward to engaging with the educational games and apps.",n:"Ms. Hunter",r:"Grade 1 Teacher, Jamaica"},{q:"I had the opportunity to review Client Work resources prior to their public release. I am encouraged to see Client Work being thoughtfully adapted for Jamaica and other countries. These are the kinds of tools I would have valued in my own classroom.",n:"Dr. Clarke",r:"Past College President, Jamaica"},{q:"My son enjoys the decodable books and is building confidence with high-frequency words. He is more willing to read on his own.",n:"Miss Miller",r:"Literacy Coach, Florida, USA"}].map(t=>(
               <div key={t.n} style={{ background:"rgba(255,255,255,0.08)", border:"1px solid rgba(255,255,255,0.12)", borderRadius:20, padding:28 }}>
                 <div style={{ color:"#F5820A", fontSize:18, marginBottom:14 }}>★★★★★</div>
                 <p style={{ fontSize:14, color:"rgba(255,255,255,0.9)", lineHeight:1.8, marginBottom:20, fontStyle:"italic" }}>"{t.q}"</p>
@@ -231,11 +231,11 @@ export default function Home() {
         <div className="container">
           <div className="grid-2">
             <div>
-              <Image src="/images/image2.jpg" alt="Paulette Trowers-Lawrence — Presidential Lifetime Achievement Award" width={600} height={800} style={{ width:"100%", height:"auto", borderRadius:16, boxShadow:"0 8px 32px rgba(0,0,0,0.1)" }} />
+              <Image src="/images/image2.jpg" alt="Client Name — Presidential Lifetime Achievement Award" width={600} height={800} style={{ width:"100%", height:"auto", borderRadius:16, boxShadow:"0 8px 32px rgba(0,0,0,0.1)" }} />
             </div>
             <div>
               <div className="section-chip">🌟 Our Founder</div>
-              <h2 style={{ fontSize:"clamp(24px,3.5vw,36px)", fontWeight:900, color:"#0C2340", marginBottom:16 }}>Paulette Trowers-Lawrence, JD</h2>
+              <h2 style={{ fontSize:"clamp(24px,3.5vw,36px)", fontWeight:900, color:"#0C2340", marginBottom:16 }}>Client Name</h2>
               <p style={{ fontSize:15, color:"#5A5240", lineHeight:1.85, marginBottom:16 }}>A trained USA lawyer, global literacy leader, author, entrepreneur, and education innovator committed to improving reading outcomes for children worldwide. Recipient of the <strong>USA Presidential Lifetime Achievement Award (2024)</strong> and an <strong>Honorary Doctorate of Humanitarianism</strong>.</p>
               <p style={{ fontSize:15, color:"#5A5240", lineHeight:1.85, marginBottom:24 }}>With over <strong>30 years</strong> of corporate and business experience, she has led the development of more than <strong>1,100 educational resources</strong>, integrating curriculum, technology, and AI to support learning across diverse environments.</p>
               <Link href="/about" className="btn-orange">Read Her Full Story →</Link>

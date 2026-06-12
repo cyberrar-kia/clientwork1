@@ -15,10 +15,10 @@ export default function HowItWorks() {
     { n:"10", title:"Sight Word Activity", desc:"Building high-frequency word recognition alongside phonics." },
     { n:"11", title:"Decodable Story", desc:"'I can read with you!' — student-led reading with a decodable text." },
     { n:"12", title:"Assessment & Motivation", desc:"Self-assessment and reward stickers — children track their own growth." },
-    { n:"13", title:"C-DER® Integration", desc:"Book-based application connecting the lesson to a decodable reader." },
-    { n:"14", title:"CHEETAH® Review", desc:"Systematic reinforcement of all sounds learned so far." },
+    { n:"13", title:"CWR Integration", desc:"Book-based application connecting the lesson to a decodable reader." },
+    { n:"14", title:"Client Work Review", desc:"Systematic reinforcement of all sounds learned so far." },
     { n:"15", title:"Practice", desc:"Hands-on activities from the Pupil's Workbook." },
-    { n:"16", title:"Fluency Testing", desc:"CHEETAH® Poster Fluency Tests — measuring speed and accuracy." },
+    { n:"16", title:"Fluency Testing", desc:"Client Work Poster Fluency Tests — measuring speed and accuracy." },
   ];
   return (
     <>
@@ -106,7 +106,7 @@ export default function HowItWorks() {
       </section>
 
       <section className="section-sm" style={{ background:"#FFF0E0", textAlign:"center" }}>
-        <h2 style={{ fontSize:"clamp(20px,3vw,30px)", fontWeight:900, color:"#0C2340", marginBottom:14 }}>Join thousands of educators and families using CHEETAH® resources!</h2>
+        <h2 style={{ fontSize:"clamp(20px,3vw,30px)", fontWeight:900, color:"#0C2340", marginBottom:14 }}>Join thousands of educators and families using Client Work resources!</h2>
         <p style={{ fontSize:15, color:"#5A5240", marginBottom:28, maxWidth:440, margin:"0 auto 28px" }}>Client Work — accelerating reading and writing success at school and at home.</p>
         <div className="btn-row" style={{ justifyContent:"center" }}>
           <Link href="/get-started" className="btn-orange">Get Started →</Link>

@@ -33,19 +33,19 @@ export default function Contact() {
           <div className="grid-2" style={{ alignItems:"start" }}>
             <div>
               <div className="section-chip">📍 Get In Touch</div>
-              <h2 style={{ fontSize:"clamp(20px,3vw,28px)", fontWeight:900, color:"#0C2340", marginBottom:24 }}>Contact CHEETAH®</h2>
+              <h2 style={{ fontSize:"clamp(20px,3vw,28px)", fontWeight:900, color:"#0C2340", marginBottom:24 }}>Contact Client Work</h2>
               <div style={{ display:"flex", flexDirection:"column", gap:14, marginBottom:24 }}>
                 {[
-                  {icon:"📧",label:"General Enquiries",val:"info@mycheetahinc.com",href:"mailto:info@mycheetahinc.com"},
-                  {icon:"📧",label:"Founder",val:"paulettetrowers@yahoo.com",href:"mailto:paulettetrowers@yahoo.com"},
-                  {icon:"📱",label:"Phone (Jamaica)",val:"876-909-6311",href:"tel:8769096311"},
-                  {icon:"📱",label:"Phone (USA)",val:"860-781-1276",href:"tel:8607811276"},
-                  {icon:"🌐",label:"Website",val:"mycheetahinc.com",href:"https://www.mycheetahinc.com"},
-                  {icon:"📸",label:"Instagram",val:"@mycheetahinc",href:"https://instagram.com/mycheetahinc"},
-                  {icon:"👍",label:"Facebook",val:"/mycheetahinc/",href:"https://facebook.com/mycheetahinc/"},
-                  {icon:"▶️",label:"YouTube",val:"Mycheetahinc",href:"https://youtube.com/@Mycheetahinc"},
-                  {icon:"💼",label:"LinkedIn",val:"Paulette Trowers-Lawrence",href:"https://linkedin.com/in/paulette-trowers-juris-doctor-65b9b818"},
-                  {icon:"🎵",label:"TikTok",val:"@officialmycheetahinc",href:"https://tiktok.com/@officialmycheetahinc"},
+                  {icon:"📧",label:"General Enquiries",val:"info@clientwork-demo.com",href:"mailto:info@clientwork-demo.com"},
+                  {icon:"📧",label:"Founder",val:"contact@clientwork-demo.com",href:"mailto:contact@clientwork-demo.com"},
+                  {icon:"📱",label:"Phone (Jamaica)",val:"876-XXX-XXXX",href:"#"},
+                  {icon:"📱",label:"Phone (USA)",val:"860-XXX-XXXX",href:"#"},
+                  {icon:"🌐",label:"Website",val:"clientwork-demo.com",href:"#"},
+                  {icon:"📸",label:"Instagram",val:"@clientworkdemo",href:"#"},
+                  {icon:"👍",label:"Facebook",val:"/clientworkdemo/",href:"#"},
+                  {icon:"▶️",label:"YouTube",val:"ClientWorkDemo",href:"#"},
+                  {icon:"💼",label:"LinkedIn",val:"Client Name",href:"#"},
+                  {icon:"🎵",label:"TikTok",val:"@clientworkdemo",href:"#"},
                 ].map(c=>(
                   <div key={c.label} style={{ background:"white", border:"1px solid #EDE0D0", borderRadius:14, padding:18, display:"flex", gap:14, alignItems:"flex-start" }}>
                     <div style={{ fontSize:22 }}>{c.icon}</div>
@@ -55,7 +55,7 @@ export default function Contact() {
               </div>
               <div style={{ background:"#FFF0E0", borderRadius:14, padding:20, marginBottom:16 }}>
                 <h4 style={{ fontFamily:"'Nunito',sans-serif", fontWeight:800, fontSize:14, color:"#0C2340", marginBottom:8 }}>🌐 Also Visit</h4>
-                <a href="https://mycheetahinc.com" target="_blank" rel="noopener noreferrer" style={{ color:"#C05A00", fontSize:14, fontWeight:600, textDecoration:"none" }}>mycheetahinc.com →</a>
+                <a href="#" target="_blank" rel="noopener noreferrer" style={{ color:"#C05A00", fontSize:14, fontWeight:600, textDecoration:"none" }}>clientwork-demo.com →</a>
               </div>
             </div>
             <div style={{ background:"white", border:"1px solid #EDE0D0", borderRadius:20, padding:"clamp(20px,4vw,36px)" }}>
@@ -65,7 +65,7 @@ export default function Contact() {
                 <div style={{ textAlign:"center", padding:"40px 20px" }}>
                   <div style={{ fontSize:48, marginBottom:16 }}>✅</div>
                   <h3 style={{ fontFamily:"'Nunito',sans-serif", fontWeight:900, fontSize:20, color:"#0C2340", marginBottom:8 }}>Message Sent!</h3>
-                  <p style={{ fontSize:14, color:"#5A5240", lineHeight:1.7 }}>Thank you for reaching out. The CHEETAH® team will be in touch within 1 business day.</p>
+                  <p style={{ fontSize:14, color:"#5A5240", lineHeight:1.7 }}>Thank you for reaching out. The Client Work team will be in touch within 1 business day.</p>
                 </div>
               ) : (
                 <div style={{ display:"flex", flexDirection:"column", gap:16 }}>

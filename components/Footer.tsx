@@ -31,7 +31,7 @@ export default function Footer() {
           <div>
             <div style={{ display:"flex", alignItems:"center", gap:14, marginBottom:14 }}>
               <Image src="/images/clientwork-literacy-logo.png" alt="Client Work Program" width={260} height={80} style={{ height:48, width:"auto", objectFit:"contain" }} />
-              <Image src="/images/cheetah-logo.png" alt="CHEETAH®" width={160} height={72} style={{ height:42, width:"auto", objectFit:"contain", mixBlendMode:"screen", marginTop:4 }} />
+              <Image src="/images/cheetah-logo.png" alt="Client Work" width={160} height={72} style={{ height:42, width:"auto", objectFit:"contain", mixBlendMode:"screen", marginTop:4 }} />
             </div>
             <p style={{ fontSize:13, lineHeight:1.7, maxWidth:240, marginBottom:16 }}>Client Work — accelerating reading and writing success at school and at home.</p>
             <div style={{ display:"flex", gap:8 }}>
@@ -49,7 +49,7 @@ export default function Footer() {
           </div>
           <div>
             <h4 style={{ color:"white", fontSize:14, fontWeight:700, marginBottom:14, fontFamily:"'Nunito',sans-serif" }}>Company</h4>
-            {[["About CHEETAH®","/about"],["Contact","/contact"],["Book a Demo","/contact"]].map(([l,h])=>(<Link key={l} href={h} style={{ display:"block", color:"rgba(255,255,255,0.55)", textDecoration:"none", fontSize:13, marginBottom:9 }}>{l}</Link>))}
+            {[["About Client Work","/about"],["Contact","/contact"],["Book a Demo","/contact"]].map(([l,h])=>(<Link key={l} href={h} style={{ display:"block", color:"rgba(255,255,255,0.55)", textDecoration:"none", fontSize:13, marginBottom:9 }}>{l}</Link>))}
           </div>
           <div>
             <h4 style={{ color:"white", fontSize:14, fontWeight:700, marginBottom:14, fontFamily:"'Nunito',sans-serif" }}>Stay Connected</h4>
@@ -88,8 +88,8 @@ export default function Footer() {
           </div>
         </div>
         <div style={{ borderTop:"1px solid rgba(255,255,255,0.1)", paddingTop:24, display:"flex", justifyContent:"space-between", flexWrap:"wrap", gap:12, fontSize:12 }}>
-          <p>© 2025 CHEETAH Toys & More, LLC. All rights reserved.</p>
-          <p>Client Work · JamDER™ · iCHEETAH™ are trademarks of CHEETAH®</p>
+          <p>© 2025 Client Work Toys & More, LLC. All rights reserved.</p>
+          <p>Client Work · CW Reader · iCW™ are trademarks of Client Work</p>
         </div>
       </div>
     </footer>

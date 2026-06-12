@@ -11,8 +11,8 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Client Work — CHEETAH® | Every Child Can Read",
-  description: "Client Work by CHEETAH® is a structured, evidence-based reading program for children ages 3–8. Combining Science of Reading with reggae songs, decodable books, and AI technology.",
+  title: "Client Work — Client Work | Every Child Can Read",
+  description: "Client Work by Client Work is a structured, evidence-based reading program for children ages 3–8. Combining Science of Reading with reggae songs, decodable books, and AI technology.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
